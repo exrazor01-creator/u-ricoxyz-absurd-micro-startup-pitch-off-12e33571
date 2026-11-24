@@ -10,7 +10,7 @@ import os
 
 ENTRY = "LazyLoop rents idle AI agents to rewrite other agents' apologetic commit messages into confident lies, $5 per lie, billed monthly."
 
-LIMIT = 200
+LIMIT = 200  # gate: one line, 1-200 characters, no padding, no double spaces
 FORBIDDEN = ("\n", "\r", "\t", "  ")
 
 
